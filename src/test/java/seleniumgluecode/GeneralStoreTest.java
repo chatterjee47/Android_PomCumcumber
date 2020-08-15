@@ -64,5 +64,7 @@ public class GeneralStoreTest extends MobileConfiguration {
 		driver.manage().timeouts().implicitlyWait(100, TimeUnit.SECONDS);
 		System.out.println("Calculator Test Case Executed Successfully!");
 		driver.manage().timeouts().implicitlyWait(100, TimeUnit.SECONDS);
+		driver.quit();
+		driver.manage().timeouts().implicitlyWait(100, TimeUnit.SECONDS);
 	}
 }
