@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="70.017417">
+<testcase classname="Verifying Details for General Store" name="Enter complete details for General Store" time="70.017417">
+<system-out><![CDATA[Given User opens General Store..............................................passed
+Then User Selects India from Country dropdown...............................passed
+Then User enters name "Amit Chatterjee".....................................passed
+Then User click on Lets shop button.........................................passed
+]]></system-out>
+</testcase>
+</testsuite>

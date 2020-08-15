@@ -1,0 +1,79 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 12,
+        "name": "Enter complete details for General Store",
+        "description": "",
+        "id": "verifying-details-for-general-store;enter-complete-details-for-general-store;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 36700732900,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User opens General Store",
+            "match": {
+              "location": "GeneralStoreTest.user_opens_General_Store()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 30411607700,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User Selects India from Country dropdown",
+            "match": {
+              "location": "GeneralStoreTest.user_Selects_India_from_Country_dropdown()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 669541300,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User enters name \"Amit Chatterjee\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Amit Chatterjee",
+                  "offset": 18
+                }
+              ],
+              "location": "GeneralStoreTest.user_enters_name(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2235534800,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User click on Lets shop button",
+            "match": {
+              "location": "GeneralStoreTest.user_click_on_Lets_shop_button()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Verifying Details for General Store",
+    "description": "",
+    "id": "verifying-details-for-general-store",
+    "keyword": "Feature",
+    "uri": "GeneralStore.feature"
+  }
+]
