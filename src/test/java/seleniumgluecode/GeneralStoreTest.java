@@ -56,11 +56,7 @@ public class GeneralStoreTest extends MobileConfiguration {
 		GSDP.ClickLetsShopBtn();
 		driver.manage().timeouts().implicitlyWait(100, TimeUnit.SECONDS);
 		int count= GSDP.ProductDetails.size();
-		for(int i=0;i<count;i++)
-		{
-		String ProductDetailDisplay=	GSDP.ProductDetails.get(i).getText();
-		System.out.println("Display name of products : " + ProductDetailDisplay);
-		}
+	
 		driver.manage().timeouts().implicitlyWait(100, TimeUnit.SECONDS);
 		System.out.println("Calculator Test Case Executed Successfully!");
 		driver.manage().timeouts().implicitlyWait(100, TimeUnit.SECONDS);
